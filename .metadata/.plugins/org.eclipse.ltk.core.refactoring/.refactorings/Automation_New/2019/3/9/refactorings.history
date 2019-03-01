@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;extent_report&apos; to &apos;My_Maven/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;Automation_New&apos;&#x0D;&#x0A;- Destination element: &apos;My_Maven/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;Automation_New/src/extent_report&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=My_Maven/src\/test\/java" element1="/src&lt;extent_report" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1551412677339" version="1.0"/>
+</session>

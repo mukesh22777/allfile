@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test thread-count="5" name="Results(failed)">
+    <classes>
+      <class name="ddfw.Inputstream">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ddfw.Inputstream -->
+      <class name="AdvancedWebdriver.Mouseover">
+        <methods>
+          <include name="f"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- AdvancedWebdriver.Mouseover -->
+      <class name="testNG.Amazon_Multi_Function">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testNG.Amazon_Multi_Function -->
+      <class name="ddfw.OutputStream">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="outputstream"/>
+        </methods>
+      </class> <!-- ddfw.OutputStream -->
+      <class name="testNG.Popup">
+        <methods>
+          <include name="popup"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testNG.Popup -->
+      <class name="AdvancedWebdriver.AjaxControl">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- AdvancedWebdriver.AjaxControl -->
+      <class name="AdvancedWebdriver.PageScroll">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- AdvancedWebdriver.PageScroll -->
+      <class name="AdvancedWebdriver.Screenshot">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- AdvancedWebdriver.Screenshot -->
+      <class name="testNG.FB_Register">
+        <methods>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG.FB_Register -->
+    </classes>
+  </test> <!-- Results(failed) -->
+</suite> <!-- Failed suite [Regression] -->

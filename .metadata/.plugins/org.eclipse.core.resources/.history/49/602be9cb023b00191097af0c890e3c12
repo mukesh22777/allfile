@@ -1,0 +1,29 @@
+
+	<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="firefoxtestsuite(failed)" parallel="tests">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="testNG.Alert" />
+			<class name="testNG.Amazon_Multi_Function" />
+			<class name="testNG.Comwebdemo" />
+        <methods>
+          <include name="verifypageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crossbrowser.VarifyTitle -->
+    </classes>
+  </test> <!-- firefoxtestsuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	
